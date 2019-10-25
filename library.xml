@@ -1,92 +1,129 @@
 <?xml version="1.0"?>
 <elemento>
 
+<Artista>
+    <id>050</id>
+    <name>Daft Punk</name>
+</Artista>
+
 <Album>
-    <id>0001</id>
-    <title>One more time</title>
-    <Artista>
-        <id>001</id>
-        <name>Daft Punk</name>
-    </Artista>
+    <id>0240</id>
+    <title>Discovery</title>
+    <Track>
+        <id>0007008</id>
+        <name>One more time</name>
+        <miliseconds></miliseconds>
+        <bytes></bytes>
+        <path></path>
+        <id_media_type></id_media_type>
+        <id_genre></id_genre>
+    </Track>
+    <Composers>
+        <id></id>
+        <name></name>
+    </Composers>    
+    <Genre>
+        <id></id>
+        <name></name>
+    </Genre>
+</Album>
+<Album>
+    <id>0240</id>
+    <title>Get Lucky</title>
+        <id>0240</id>
+    <title>Random Access Memories</title>
+    <Track>
+        <id>0007009</id>
+        <name>One more time</name>
+        <miliseconds></miliseconds>
+        <bytes></bytes>
+        <path></path>
+        <id_media_type></id_media_type>
+        <id_genre></id_genre>
+    </Track>
+    <Composers>
+        <id></id>
+        <name></name>
+    </Composers>  
+    <Genre>
+        <id></id>
+        <name></name>
+    </Genre>    
+</Album>
+<Album>
+    <id>0240</id>
+    <title>Discovery</title>
+    <Track>
+        <id>0007010</id>
+        <name>Harder, better, faster, stronger</name>
+        <miliseconds></miliseconds>
+        <bytes></bytes>
+        <path></path>
+        <id_media_type></id_media_type>
+        <id_genre></id_genre>
+    </Track>    
+    <Composers>
+        <id></id>
+        <name></name>
+    </Composers>  
+    <Genre>
+        <id></id>
+        <name></name>
+    </Genre>
+</Album>
+<Album>
+    <id>0240</id>
+    <title>Random Access Memories</title>
+    <Track>
+        <id>0007011</id>
+        <name>Instant Crush</name>
+        <miliseconds></miliseconds>
+        <bytes></bytes>
+        <path></path>
+        <id_media_type></id_media_type>
+        <id_genre></id_genre>
+    </Track>  
+    <Composers>
+        <id></id>
+        <name></name>
+    </Composers>  
+    <Genre>
+        <id></id>
+        <name></name>
+    </Genre>
 </Album>
 
 <Album_artists>
-    <id_album>
-    </id_album>
-    <id_artist>
-    </id_artist>
+    <id_album>0240</id_album>
+    <id_artist>050</id_artist>
 </Album_artists>
 
-<Track>
-    <id>
-    </id>
-    <name>
-    </name>
-    <miliseconds>
-    </miliseconds>
-    <bytes>
-    </bytes>
-    <path>
-    </path>
-    <id_media_type>
-    </id_media_type>
-    <id_genre>
-    </id_genre>
-</Track>
-
 <Track_composers>
-    <id_track>
-    </id_track>
-    <id_composer>
-    </id_composer>
-    <year>
-    </year>
+    <id_track></id_track>
+    <id_composer></id_composer>
+    <year></year>
 </Track_composers>
 
-<Composers>
-    <id>
-    </id>
-    <name>
-    </name>
-</Composers>
-
 <Media_types>
-    <id>
-    </id>
-    <name>
-    </name>
+    <id></id>
+    <name></name>
 </Media_types>
 
 <Album_tracks>
-    <id_album>
-    </id_album>
-    <id_track>
-    </id_track>
-    <number_track>
-    </number_track>
+    <id_album></id_album>
+    <id_track></id_track>
+    <number_track></number_track>
 </Album_tracks>
 
-<Genre>
-    <id>
-    </id>
-    <name>
-    </name>
-</Genre>
-
 <Playlist>
-    <id>
-    </id>
-    <name>
-    </name>
+    <id></id>
+    <name></name>
 </Playlist>
 
 <Playlist_tracks>
-    <id_playlist>
-    </id_playlist>
-    <id_track>
-    </id_track>
-    <number_track>
-    </number_track>
+    <id_playlist></id_playlist>
+    <id_track></id_track>
+    <number_track></number_track>
 <Playlist_tracks>
 
 </elemento>
