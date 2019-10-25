@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<elemento>
+
+<Album>
+    <id>0001</id>
+    <title>One more time</title>
+    <Artista>
+        <id>001</id>
+        <name>Daft Punk</name>
+    </Artista>
+</Album>
+
+<Album_artists>
+    <id_album>
+    </id_album>
+    <id_artist>
+    </id_artist>
+</Album_artists>
+
+<Track>
+    <id>
+    </id>
+    <name>
+    </name>
+    <miliseconds>
+    </miliseconds>
+    <bytes>
+    </bytes>
+    <path>
+    </path>
+    <id_media_type>
+    </id_media_type>
+    <id_genre>
+    </id_genre>
+</Track>
+
+<Track_composers>
+    <id_track>
+    </id_track>
+    <id_composer>
+    </id_composer>
+    <year>
+    </year>
+</Track_composers>
+
+<Composers>
+    <id>
+    </id>
+    <name>
+    </name>
+</Composers>
+
+<Media_types>
+    <id>
+    </id>
+    <name>
+    </name>
+</Media_types>
+
+<Album_tracks>
+    <id_album>
+    </id_album>
+    <id_track>
+    </id_track>
+    <number_track>
+    </number_track>
+</Album_tracks>
+
+<Genre>
+    <id>
+    </id>
+    <name>
+    </name>
+</Genre>
+
+<Playlist>
+    <id>
+    </id>
+    <name>
+    </name>
+</Playlist>
+
+<Playlist_tracks>
+    <id_playlist>
+    </id_playlist>
+    <id_track>
+    </id_track>
+    <number_track>
+    </number_track>
+<Playlist_tracks>
+
+</elemento>
+
+
+
