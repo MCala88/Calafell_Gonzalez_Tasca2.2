@@ -26,6 +26,10 @@
         <id></id>
         <name></name>
     </Genre>
+    <Media_types>
+        <id>4</id>
+        <name>mp4</name>
+    </Media_types>
 </Album>
 <Album>
     <id>0240</id>
@@ -35,20 +39,28 @@
     <Track>
         <id>0007009</id>
         <name>One more time</name>
-        <miliseconds></miliseconds>
-        <bytes></bytes>
-        <path></path>
+        <miliseconds>320000</miliseconds>
+        <bytes>4,2MB</bytes>
+        <path>C:/Playlist/Daft_Punk/One_more_time</path>
         <id_media_type></id_media_type>
-        <id_genre></id_genre>
+        <id_genre>26</id_genre>
     </Track>
     <Composers>
-        <id></id>
-        <name></name>
+        <id>777</id>
+        <name>Thomas Bangalter</name>
     </Composers>  
+    <Composers>
+        <id>778</id>
+        <name>Guy-Manuel de Homem-Christo</name>
+    </Composers>
     <Genre>
-        <id></id>
-        <name></name>
+        <id>26</id>
+        <name>French house</name>
     </Genre>    
+    <Media_types>
+        <id>4</id>
+        <name>mp4</name>
+    </Media_types>
 </Album>
 <Album>
     <id>0240</id>
@@ -70,6 +82,10 @@
         <id></id>
         <name></name>
     </Genre>
+    <Media_types>
+        <id>4</id>
+        <name>mp4</name>
+    </Media_types>
 </Album>
 <Album>
     <id>0240</id>
@@ -91,6 +107,10 @@
         <id></id>
         <name></name>
     </Genre>
+    <Media_types>
+        <id>4</id>
+        <name>mp4</name>
+    </Media_types>
 </Album>
 
 <Album_artists>
@@ -103,11 +123,6 @@
     <id_composer></id_composer>
     <year></year>
 </Track_composers>
-
-<Media_types>
-    <id></id>
-    <name></name>
-</Media_types>
 
 <Album_tracks>
     <id_album></id_album>
