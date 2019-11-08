@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Llenguatge de Marques-->
+<!--Tasca 3.1-->
+<!--Miquel Calafell Estarellas y Alex Gonzalez Brotons-->
+<!--Hemos usado complexType siempre porque teneian otros elementos en su interior-->
+
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="elemento">
+    <xs:complexType mixed="true">
+      
+      <xs:sequence>
+        <xs:element name="Artista">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" type="xs:unsignedByte" />
+              <xs:element name="name" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element maxOccurs="unbounded" name="Album">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" type="xs:unsignedByte" />
+              <xs:element name="title" type="xs:string" />
+              <xs:element name="Track">
+                <xs:complexType mixed="true">
+                  <xs:sequence>
+                    <xs:element name="id" type="xs:unsignedShort" />
+                    <xs:element name="name" type="xs:string" />
+                    <xs:element name="miliseconds" type="xs:unsignedInt" />
+                    <xs:element name="bytes" type="xs:string" />
+                    <xs:element name="path" type="xs:string" />
+                    <xs:element name="id_media_type" type="xs:unsignedByte" />
+                    <xs:element name="id_genre" type="xs:unsignedByte" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+
+              <xs:element maxOccurs="unbounded" name="Composers">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="id" type="xs:unsignedShort" />
+                    <xs:element name="name" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+
+              <xs:element name="Genre">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="id" type="xs:unsignedByte" />
+                    <xs:element name="name" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+
+              <xs:element name="Media_types">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="id" type="xs:unsignedByte" />
+                    <xs:element name="name" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        
+        <xs:element maxOccurs="unbounded" name="Album_artists">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id_album" type="xs:unsignedByte" />
+              <xs:element name="id_artist" type="xs:unsignedByte" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        
+        <xs:element maxOccurs="unbounded" name="Track_composers">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id_track" type="xs:unsignedShort" />
+              <xs:element maxOccurs="unbounded" name="id_composer" type="xs:unsignedShort" />
+              <xs:element name="year" type="xs:unsignedShort" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        
+        <xs:element maxOccurs="unbounded" name="Album_tracks">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id_album" type="xs:unsignedByte" />
+              <xs:element name="id_track" type="xs:unsignedShort" />
+              <xs:element name="number_track" type="xs:unsignedByte" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        
+        <xs:element name="Playlist">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" type="xs:unsignedByte" />
+              <xs:element name="name" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="Playlist_tracks">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:choice maxOccurs="unbounded">
+                <xs:element name="id_playlist" type="xs:unsignedByte" />
+                <xs:element name="id_track" type="xs:unsignedShort" />
+                <xs:element name="number_track" type="xs:unsignedByte" />
+              </xs:choice>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
