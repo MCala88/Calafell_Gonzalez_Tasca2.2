@@ -3,13 +3,15 @@
 <!--Llenguatge de Marques-->
 <!--Tasca 3.1-->
 <!--Miquel Calafell Estarellas y Alex Gonzalez Brotons-->
+<!--Codigo de caracteres UTF-8-->
 <!--Hemos usado complexType siempre porque teneian otros elementos en su interior-->
 
+<!--Especificamos la codificación y los vocabularios-->
 <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:element name="elemento">
     <xs:complexType mixed="true">
-      
       <xs:sequence>
+        <!--Tenemos el elemento de artista y dentro el id en formato de codigo de bytes y el nombre en formato de string-->
         <xs:element name="Artista">
           <xs:complexType>
             <xs:sequence>
@@ -18,7 +20,9 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-
+        <!--El elemento Album donde el maximo de elementos del interior no tiene limitación-->
+        <!--En el interior tenemos la misma estructura que Artistas-->
+        <!--Uno de los elementos dentro de Album es Tracks con nuevos elementos como miliseconds que se encuentra en un formato de integer, bytes y path en formato de string y el id_media_type y id_genre como formato de codigo de bytes-->
         <xs:element maxOccurs="unbounded" name="Album">
           <xs:complexType>
             <xs:sequence>
@@ -76,7 +80,7 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        
+        <!--En el elemento Track_composers tenemos el elemento de id_composers donde al haber mas de uno tenemos que pueden haber un numero ilimitado de elementos en el interior-->
         <xs:element maxOccurs="unbounded" name="Track_composers">
           <xs:complexType>
             <xs:sequence>

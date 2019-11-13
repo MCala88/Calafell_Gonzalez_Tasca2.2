@@ -1,30 +1,36 @@
 <?xml version="1.0"?>
+<element xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="library.xsd">
 <elemento>
-
+​
 <Artista>
     <id>050</id>
     <name>Daft Punk</name>
 </Artista>
-
+​
 <Album>
     <id>0240</id>
     <title>Discovery</title>
     <Track>
         <id>0007008</id>
-        <name>One more time</name>
-        <miliseconds></miliseconds>
-        <bytes></bytes>
-        <path></path>
-        <id_media_type></id_media_type>
-        <id_genre></id_genre>
+        <name>Get Lucky</name>
+        <miliseconds>247000</miliseconds>
+        <bytes>3,9</bytes>3
+        <path>C:/Playlist/Daft_Punk/Get_Lucky</path>
+        <id_media_type>4</id_media_type>
+        <id_genre>24</id_genre>
     </Track>
     <Composers>
-        <id></id>
-        <name></name>
+        <id>777</id>
+        <name>Thomas Bangalter</name>
     </Composers>    
+    <Composers>
+        <id>778</id>
+        <name>Guy-Manuel de Homem-Christo</name>
+    </Composers>       
     <Genre>
-        <id></id>
-        <name></name>
+        <id>24</id>
+        <name>Electric Pop</name>
     </Genre>
     <Media_types>
         <id>4</id>
@@ -32,9 +38,7 @@
     </Media_types>
 </Album>
 <Album>
-    <id>0240</id>
-    <title>Get Lucky</title>
-        <id>0240</id>
+    <id>0241</id>
     <title>Random Access Memories</title>
     <Track>
         <id>0007009</id>
@@ -42,7 +46,7 @@
         <miliseconds>320000</miliseconds>
         <bytes>4,2MB</bytes>
         <path>C:/Playlist/Daft_Punk/One_more_time</path>
-        <id_media_type></id_media_type>
+        <id_media_type>4</id_media_type>
         <id_genre>26</id_genre>
     </Track>
     <Composers>
@@ -68,19 +72,23 @@
     <Track>
         <id>0007010</id>
         <name>Harder, better, faster, stronger</name>
-        <miliseconds></miliseconds>
-        <bytes></bytes>
-        <path></path>
-        <id_media_type></id_media_type>
-        <id_genre></id_genre>
+        <miliseconds>224000</miliseconds>
+        <bytes>3.8MB</bytes>
+        <path>C:/Playlist/Daft_Punk/Harder_Beter_Faster_Stronger</path>
+        <id_media_type>4</id_media_type>
+        <id_genre>25</id_genre>
     </Track>    
     <Composers>
-        <id></id>
-        <name></name>
-    </Composers>  
+        <id>777</id>
+        <name>Thomas Bangalter</name>
+    </Composers>    
+    <Composers>
+        <id>778</id>
+        <name>Guy-Manuel de Homem-Christo</name>
+    </Composers> 
     <Genre>
-        <id></id>
-        <name></name>
+        <id>26</id>
+        <name>French house</name>
     </Genre>
     <Media_types>
         <id>4</id>
@@ -88,58 +96,114 @@
     </Media_types>
 </Album>
 <Album>
-    <id>0240</id>
+    <id>0241</id>
     <title>Random Access Memories</title>
     <Track>
         <id>0007011</id>
         <name>Instant Crush</name>
-        <miliseconds></miliseconds>
-        <bytes></bytes>
+        <miliseconds>337000</miliseconds>
+        <bytes>4.5MB</bytes>
         <path></path>
-        <id_media_type></id_media_type>
-        <id_genre></id_genre>
+        <id_media_type>4</id_media_type>
+        <id_genre>25</id_genre>
     </Track>  
     <Composers>
-        <id></id>
-        <name></name>
-    </Composers>  
+        <id>777</id>
+        <name>Thomas Bangalter</name>
+    </Composers>    
+    <Composers>
+        <id>778</id>
+        <name>Guy-Manuel de Homem-Christo</name> 
+    </Composers>
     <Genre>
-        <id></id>
-        <name></name>
+        <id>25</id>
+        <name>Electronic Rock</name>
     </Genre>
     <Media_types>
         <id>4</id>
         <name>mp4</name>
     </Media_types>
 </Album>
-
+​
 <Album_artists>
     <id_album>0240</id_album>
     <id_artist>050</id_artist>
 </Album_artists>
-
+​
+<Album_artists>
+    <id_album>0241</id_album>
+    <id_artist>050</id_artist>
+</Album_artists>
+​
 <Track_composers>
-    <id_track></id_track>
-    <id_composer></id_composer>
-    <year></year>
+    <id_track>0007008</id_track>
+    <id_composer>777</id_composer>
+    <id_composer>778</id_composer>
+    <year>2001</year>
 </Track_composers>
-
+​
+<Track_composers>
+    <id_track>0007009</id_track>
+    <id_composer>777</id_composer>
+    <id_composer>778</id_composer>
+    <year>2013</year>
+</Track_composers>
+​
+<Track_composers>
+    <id_track>0007010</id_track>
+    <id_composer>777</id_composer>
+    <id_composer>778</id_composer>
+    <year>2001</year>
+</Track_composers>
+​
+<Track_composers>
+    <id_track>0007011</id_track>
+    <id_composer>777</id_composer>
+    <id_composer>778</id_composer>
+    <year>2013</year>
+</Track_composers>
+​
 <Album_tracks>
-    <id_album></id_album>
-    <id_track></id_track>
-    <number_track></number_track>
+    <id_album>0240</id_album>
+    <id_track>0007008</id_track>
+    <number_track>1</number_track>
 </Album_tracks>
-
+​
+<Album_tracks>
+    <id_album>0240</id_album>
+    <id_track>0007010</id_track>
+    <number_track>3</number_track>
+</Album_tracks>
+​
+<Album_tracks>
+    <id_album>0241</id_album>
+    <id_track>0007009</id_track>
+    <number_track>2</number_track>
+</Album_tracks>
+​
+<Album_tracks>
+    <id_album>0241</id_album>
+    <id_track>0007011</id_track>
+    <number_track>4</number_track>
+</Album_tracks>
+​
 <Playlist>
-    <id></id>
-    <name></name>
+    <id>014</id>
+    <name>Daft_Punk_Playlist</name>
 </Playlist>
-
+​
 <Playlist_tracks>
-    <id_playlist></id_playlist>
-    <id_track></id_track>
-    <number_track></number_track>
-<Playlist_tracks>
+    <id_playlist>014</id_playlist>
+    <id_track>0007008</id_track>
+    <number_track>1</number_track>
+    <id_track>0007009</id_track>
+    <number_track>2</number_track>
+    <id_track>0007010</id_track>
+    <number_track>3</number_track>
+    <id_track>0007011</id_track>
+    <number_track>4</number_track>
+</Playlist_tracks>
+​
 
 </elemento>
 
